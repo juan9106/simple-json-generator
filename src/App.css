@@ -1,0 +1,99 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+body {
+  background-color: #f6f7fb;
+  color: #000;
+}
+
+
+select,
+button,
+input {
+  padding: 5px;
+  font-size: 16px;
+}
+
+button {
+  border: none;
+  border-radius: .25rem;
+  padding: 10px;
+  font-weight: 501;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.main-content {
+  border: 0.7px solid lightgray;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 30px;
+  width: 60%;
+}
+
+.instructions {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.6em;
+}
+
+.json-builder-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.json-builder-buttons button {
+  background: #3B82F6;
+  color: #fff;
+}
+
+.json-builder {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.attribute-row-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.remove-btn {
+  background-color: #ff0000;
+  color: #fff;
+  padding: 5px 10px;
+}
+
+.text-attribute {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.array-items {
+  display: flex;
+  flex-direction: row;
+  margin: 0 0 20px 30px;
+  margin-left: 30px;
+  gap: 30px;
+}
+
+.json-content textarea {
+  width: 95%;
+  height: 50vh;
+  resize: none;
+  text-size-adjust: none;
+}
+
+.error-message {
+  color: #ff0000;
+}
